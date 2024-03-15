@@ -1,13 +1,8 @@
 body {
     background-color: hsl(212, 45%, 89%);
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body .content {
-    position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
     font-family: "outfit", sans-serif;
 }
 .qr {
@@ -15,7 +10,8 @@ body .content {
     background-color: hsl(0, 0%, 100%);
     width: 300px;
     border-radius: 15px;
-    transform: translateY(18%);
+    top: 50%;
+    transform: translateY(-50%);
 }
 .qr .content {
     display: flex;
